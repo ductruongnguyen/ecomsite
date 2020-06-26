@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #f1f1f1 !important;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.form {
+  padding: 50px 0 50px 0 !important;
+  background-color: white;
+  clear: left;
+  float: left;
+  height: 350px;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.info {
+  background-color: #0F1130;
+  color: white;
+  padding: 100px 20px 50px 20px;
+  float: left;
+  height: 350px;
+  margin-top: 10%;
+}
+
+.username input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 0;
+  background-color: #f1f1f1;
+}
+
+.password input {
+  border: 0;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .info{
+    display: none;
+  }
+
+  .form {
+    margin-left: 10%;
+    width: 150px;
+  }
+
+}

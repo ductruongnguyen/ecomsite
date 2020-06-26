@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+/*Header && Logo*/
+
+.header {
+  background-color: #222F3C;
+  padding-top: 15px;
+}
+
+.logo {
+  color: white;
+}
+
+.search-tag {
+  float: left;
+  height: 40px;
+  border: 0;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  width: 20%;
+}
+
+.search-bar {
+  float: left;
+  height: 40px;
+  border: 0;
+  padding: 5px;
+  padding-left: 20px;
+  width: 65%;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.search-btn {
+  height: 40px;
+  border: 0;
+  background-color: orange;
+  padding: 10px;
+  color: white;
+  width: 10%;
+  margin-bottom: 10px;
+}
+
+.login a {
+  color: white;
+}
+
+.login a:hover {
+  text-decoration: none;
+}
+
+button#register-btn {
+    display: inline;
+    width: 40%;
+    padding: 5px;
+}
+
+button#login-btn {
+    display: inline;
+    width: 40%;
+    padding: 5px;
+}
+
+/*Navigation Bar*/
+
+.nav-bar {
+  background-color: #293847;
+  height: 45px;
+  color: white;
+}
+
+.nav-bar-child {
+  padding-top: 10px;
+}
+
+.nav-bar a {
+  padding-left: 30px;
+  color: white;
+}
+
+.nav-bar a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.right {
+    display: inline-block;
+    float: right;
+}
+
+#total {
+    background-color: red;
+    border-radius: 55%;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+}
+
+i.fa.fa-shopping-cart {
+    font-size: 26px;
+}
