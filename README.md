@@ -2,7 +2,7 @@
 
 Features Summary
 
-1- For user:
+1- For users:
 
 - Login and Logout with information validation.
 
@@ -10,6 +10,6 @@ Features Summary
 
 2- For admin:
 
-- Manage order's informations.
+- Manage order's information.
 
 - Insert and delete any products.
